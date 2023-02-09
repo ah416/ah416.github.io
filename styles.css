@@ -1,9 +1,24 @@
+@font-face {
+    font-family: "Cascadia Code";
+    src: url('fonts/CascadiaCode/CascadiaCode.ttf');
+}
+
 body {
-    background-color: powderblue;
+    margin: 0;
+    background-color: black;
+    font-family: "Cascadia Code", sans-serif;
 }
-h1 {
-    color: blue;
-}
-p {
-    color: red;
+
+.hello {
+    display: flex;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
+
+    background: #000000;
+    font-size: 40px;
+    color: #FFF;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    text-align: center;
 }
